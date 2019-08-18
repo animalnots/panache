@@ -1,5 +1,7 @@
 # Panache aka Flutterial 
 
+[![Flutter Channel](https://img.shields.io/badge/Channel-dev-38B7F3.svg)](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels)
+
 A [Flutter](https://flutter.io) [Material Theme](https://docs.flutter.io/flutter/material/ThemeData-class.html) editor. 
 
 Panache helps you to create beautiful [Material](http://material.io) themes for your Flutter applications.
