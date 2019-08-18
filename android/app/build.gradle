@@ -38,7 +38,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "bz.rxla.panache"
+        applicationId "com.mono0926.panache"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode flutterVersionCode.toInteger()
