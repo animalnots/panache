@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:mono_kit/mono_kit.dart';
 import 'package:panache_lib/panache_lib.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:scoped_model/scoped_model.dart';
@@ -46,6 +47,7 @@ class PanacheApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: panacheTheme,
         home: LaunchScreen(model: themeModel),
+        builder: (context, child) => TextScaleFactor(child: child),
         routes: {
           '/home': (context) => LaunchScreen(model: themeModel),
           '/editor': (context) => PanacheEditorScreen(),
